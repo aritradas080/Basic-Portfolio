@@ -1,0 +1,96 @@
+.slideshow-container{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: transparent;
+}
+
+/* .slideshow-elements{
+
+} */
+.slideshow-element{
+    text-align: center;
+    position: absolute;
+    transform : translate(-50%,-50%) scale(0);
+    transition: transform 0.6s;
+}
+
+.slideshow-element img{
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width : 50vh;
+    font-size: 2rem;
+}
+
+.about{
+    /* justify-content: baseline;
+    align-items: justify; */
+    font-size: 1.5rem;
+    padding-top: 20%;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+.skills{
+    font-size: 5rem;
+    color: blueviolet;
+    font-family: fantasy;
+    font-weight: bold;
+}
+
+.skill-language{
+    text-align: justify;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.technology{
+    font-size: 3rem;
+    color: blue;
+    /* font-family: fantasy; */
+    font-weight: bold;
+    padding-top: 20%;
+}
+.skill-technology{
+    text-align: justify;
+    font-weight: bold;
+    font-size: 3rem;
+    color: chocolate;
+}
+
+.hobbies{
+    font-size: 3rem;
+    color: blue;
+    /* font-family: fantasy; */
+    font-weight: bold;
+    padding-top: 20%;
+}
+
+.term-hobby{
+    text-align: justify;
+    font-weight: bold;
+    font-size: 3rem;
+    color: chocolate;
+}
+
+.contacts{
+    font-size: 2rem;
+    color: blue;
+    /* font-family: fantasy; */
+    font-weight: bold;
+    padding-top: 20%;
+}
+
+.term-contact{
+    text-align: justify;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.slideshow-element.current{
+    transform : translate(-50%,-50%) scale(1);
+    transition: transform 0.6s;
+}
+
+
